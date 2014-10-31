@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+     <color name="result_view">#b0000000</color>
+      <color name="viewfinder_mask">#60000000</color>
+      <color name="possible_result_points">#c0ffff00</color> 
+      <color name="mintcream">#F5FFFA</color>
+      <color name="azure">#3caffc</color><!--天蓝色 -->
+      <color name="huise">#666666</color><!--天蓝色 -->      
+       <color name="blueviolet">#8A2BE2</color><!--紫罗兰蓝色 -->   
+       <color name="tag_color">#7b3e1f</color>
+       <color name="jihuangse">#CC6600</color>
+</resources>

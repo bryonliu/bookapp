@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">书友会</string>
+    <string name="login_label_username">帐号</string>
+    <string name="login_label_password">密码</string>
+    <string name="login_label_Email">邮箱</string>
+    <string name="login_label_nickname">昵称</string>
+    <string name="login_label_passwordagain">确认密码</string>
+    <string name="login_label_weixin">微信号</string>
+    <string name="login_label_signup">注册</string>
+    <string name="login_label_signin">登 录</string>
+    <string name="login_label_search">查找</string>
+    <string name="login_label_reset">重置</string>
+    <string name="login_label_ensure">确认</string>
+    <string name="summary">内容简介</string>
+    <string name="login_status_logging_in">登录中...</string>
+    <string name="login_username_hint">Email/手机号</string>
+    <string name="login_weixin_hint">选填</string>
+    <string name="login_register_link">书友会</string>
+    <string name="app_name">书友</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="label_input_hint">贴个标签吧亲</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+    <string name="share">分   享</string>
+    <string name="add">添加</string>
+    <string name="share_mylocation">分享我的位置</string>
+    <string name="mylocation_longitude">经 &#160;&#160;&#160;&#160;&#160;&#160;&#160;度:&#160;&#160;</string>
+    <string name="mylocation_latitude">纬 &#160;&#160;&#160;&#160;&#160;&#160;&#160;度:&#160;&#160;</string>
+    <string name="mylocation_address">地址信息:&#160;&#160;</string>
+
+    <string-array name="planets_array">
+        <item>爱读书</item>
+        <item>爱分享</item>
+        <item>我的书架</item>
+        <item>我的标签</item>
+        <item>爱定位</item>
+        <item>设置</item>
+        <item>关于</item>
+        <item>退出</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="user_name">user_name</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="image_content_desc">书籍封面</string>
+    <string name="title_activity_login_transit">LoginTransitActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_show_map">ShowMapActivity</string>
+    <string name="title_activity_near_by">NearByActivity</string>
+    <string name="title_activity_near">Near</string>
+
+</resources>

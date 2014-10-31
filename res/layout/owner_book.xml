@@ -1,0 +1,101 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+           android:background="@drawable/background" >
+            
+
+
+<LinearLayout
+    android:id="@+id/linearLayout"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              
+      <include
+            android:id="@+id/include1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/titlelayout" />
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bookview_title1"
+            android:layout_gravity="center|bottom|left|right|top"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="20dip" >
+
+        <ImageView
+                android:layout_width="110dip"
+                android:layout_height="140dip"
+                android:contentDescription="@string/image_content_desc"
+                android:id="@+id/bookview_cover"/>
+        <LinearLayout
+                      android:orientation="vertical"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="20dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookview_author1"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookview_publisher1"
+                    android:layout_marginTop="5dip"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookview_publisherdate1"
+                    android:layout_marginTop="5dip"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookview_isbn1"
+                    android:layout_marginTop="5dip"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookview_userName1"
+                   android:layout_marginTop="5dip"/>
+             <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/azure"
+                    android:id="@+id/bookview_userEmail1"
+                    android:layout_marginTop="5dip"/>
+              <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bookview_wechatNum1"
+                   android:layout_marginTop="5dip"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/summary"
+            android:gravity="center_horizontal"
+            android:textSize="28sp"
+            android:layout_marginTop="10dip"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:paddingLeft="20dip"
+            android:paddingRight="20dip"
+            android:id="@+id/bookview_summary1"/>
+
+    
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dip"
+        android:orientation="horizontal"
+      >
+
+        <EditText
+            android:id="@+id/label_input"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="2"
+            android:background="@drawable/login_edittext_bg"
+            android:hint="@string/label_input_hint"
+            android:paddingRight="10dip"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/label_add_button"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/blue_selector"
+            android:gravity="center"
+            android:text="@string/add" />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/label_gridview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_margin="15dip"
+        android:gravity="center_horizontal|center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:paddingLeft="30dip"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="10dp" />
+
+</LinearLayout>
